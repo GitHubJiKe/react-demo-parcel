@@ -21,11 +21,13 @@
   },
   "homepage": "https://github.com/GitHubJiKe/react-demo-parcel#readme",
   "dependencies": {
+    "@types/antd": "^1.0.0",
     "@types/classnames": "^2.2.11",
     "@types/react": "^16.9.55",
     "@types/react-dom": "^16.9.9",
     "@types/react-router": "^5.1.8",
     "@types/react-router-dom": "^5.1.6",
+    "antd": "^4.7.3",
     "classnames": "^2.2.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

@@ -1,17 +1,21 @@
+import { Button } from "antd";
+import { ButtonProps } from "antd/lib/button";
 import React, { ReactNode } from "react";
 import { Link } from "react-router-dom";
-
-import "./style.scss";
 
 interface ILinkButtonProps {
   children: ReactNode;
   to: string;
 }
 
-export default function LinkButton({ children, to }: ILinkButtonProps) {
+export default function LinkButton({
+  children,
+  to,
+  ...btnProps
+}: ILinkButtonProps & ButtonProps) {
   return (
     <Link to={to}>
-      <button className="button-root">{children}</button>
+      <Button {...btnProps}>{children}</Button>
     </Link>
   );
 }

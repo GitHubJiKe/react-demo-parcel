@@ -4,7 +4,8 @@
   "description": "react demo with parcel",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./index.html --no-cache"
+    "start": "parcel ./index.html --no-cache --open",
+    "build": "parcel build ./index.html --no-cache"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,8 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "parcel-plugin-zip": "^1.0.6",
     "sass": "^1.27.1",
     "typescript": "^4.0.5"
   }

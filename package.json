@@ -1,0 +1,40 @@
+{
+  "name": "react-demo-parcel",
+  "version": "1.0.0",
+  "description": "react demo with parcel",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./index.html --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitHubJiKe/react-demo-parcel.git"
+  },
+  "keywords": [
+    "react",
+    "parcel"
+  ],
+  "author": "PengfeiYuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitHubJiKe/react-demo-parcel/issues"
+  },
+  "homepage": "https://github.com/GitHubJiKe/react-demo-parcel#readme",
+  "dependencies": {
+    "@types/classnames": "^2.2.11",
+    "@types/react": "^16.9.55",
+    "@types/react-dom": "^16.9.9",
+    "@types/react-router": "^5.1.8",
+    "@types/react-router-dom": "^5.1.6",
+    "classnames": "^2.2.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.27.1",
+    "typescript": "^4.0.5"
+  }
+}

@@ -1,0 +1,51 @@
+.time-line-root {
+  .time-point {
+    display: inline-block;
+    .content {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @mixin circle {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+      }
+      .circle {
+        @include circle();
+        border: 1px solid blue;
+        display: inline-block;
+      }
+      .done {
+        @include circle();
+        background-color: blue;
+        display: inline-block;
+      }
+      .circle-last {
+        @include circle();
+        background-color: brown;
+        display: inline-block;
+      }
+      .title {
+        text-align: left;
+        margin: 0 6px;
+        margin-top: 20px;
+      }
+      .sub-title {
+        margin: 0 6px;
+        color: gray;
+      }
+      .line {
+        display: inline-block;
+        min-width: 200px;
+        height: 2px;
+        background-color: blue;
+        margin: 0 6px;
+      }
+    }
+  }
+}
+
+.desc {
+  width: 300px;
+}

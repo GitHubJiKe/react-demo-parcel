@@ -4,7 +4,7 @@
   "description": "react demo with parcel",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./index.html --no-cache --open",
+    "start": "parcel ./index.html",
     "build": "parcel build ./index.html --no-cache"
   },
   "repository": {
@@ -24,12 +24,18 @@
   "dependencies": {
     "@types/antd": "^1.0.0",
     "@types/classnames": "^2.2.11",
+    "@types/file-saver": "^2.0.1",
+    "@types/gsap": "^1.20.2",
+    "@types/lodash": "^4.14.164",
     "@types/react": "^16.9.55",
     "@types/react-dom": "^16.9.9",
     "@types/react-router": "^5.1.8",
     "@types/react-router-dom": "^5.1.6",
     "antd": "^4.7.3",
     "classnames": "^2.2.6",
+    "file-saver": "^2.0.5",
+    "gsap": "^3.5.1",
+    "lodash": "^4.17.20",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router": "^5.2.0",
